@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #E0FFFF;
+
+}
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: #00CED1;
+	padding: 0;
+}
+#header-nav + .container {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.menuclass{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.para {
+   clear: both;
+   padding: 10px 25px 10px 25px;
+}
+.content {
+   border: 1px solid black;
+   background-color: #778899;
+   padding: 10px;
+   margin-bottom: 15px;
+
+}
+#chicken, #beef, #sushi {
+   text-align: center;
+   font-size: 125%;
+   margin-top: 5px;
+}
+.row {
+   width: 100%;
+   margin-right: -15px;
+   margin-left: 0px;
+}
+#ah {
+	text-anchor: none;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+.topnav #myLinks {
+  display: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: #00CED1;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.navbar {
+	display: block;
+}
+@media(min-width: 767px) {
+	.topnav {
+		display: none;
+	}
+}
